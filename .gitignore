@@ -1,2 +1,7 @@
-_site
-.DS_Store
+.DS_STORE
+.sass-cache/
+*.sublime-project
+*.sublime-workspace
+robots.txt
+keybase.txt
+SRC/

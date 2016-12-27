@@ -1,18 +1,14 @@
-url: "http://jakewharton.com"
-
-highlighter: rouge
-permalink: /:title/
-markdown: kramdown
-
-future: true
-
-gems:
-  - jekyll-feed
-  - jekyll-redirect-from
-
-collections:
-  presentations:
-    output: true
-    permalink: /:title/
-
-exclude: [vendor]
+port: 4000
+permalink: /:categories/:year/:month/:title.html
+exclude: ['README.md']
+markdown: redcarpet
+assets:
+  cachebust: none
+  gzip: true
+  sources:
+    - _assets/js
+    - _assets/css
+    - _assets/img
+  compress:
+    css: 'sass'
+    js: 'uglifier'
