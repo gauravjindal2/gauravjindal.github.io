@@ -1,7 +1,7 @@
-.DS_STORE
-.sass-cache/
-*.sublime-project
-*.sublime-workspace
-robots.txt
-keybase.txt
-SRC/
+_site
+node_modules
+npm-debug.log
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*.sh
