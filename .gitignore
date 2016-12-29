@@ -1,7 +1,6 @@
 _site
-node_modules
-npm-debug.log
+.sass-cache
+.jekyll-metadata
+.idea
 .DS_Store
-*/.DS_Store
-*/*/.DS_Store
-*.sh
+
